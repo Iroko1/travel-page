@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Kiwi Maru', serif;
+    background-color: whitesmoke;
+    
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: whitesmoke;
+}
+
+nav ul,
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+nav .logo {
+    height: 100%;
+    width: 80px;
+    background-color: red;
+    color: whitesmoke;
+    display: flex;
+    align-items: flex-end;
+}
+
+nav .div-logo {
+    display: flex;
+}
+
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: rgb(255, 123, 0);
+}
+
+a:hover {
+    color: rgb(122, 59, 0);
+}
+
+.header-pic {
+    width: 100%;
+    height: 80vh;
+    background-image: url(img/header.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+
+.header-pic h2 {
+    display: flex;
+    height: 50%;
+    flex-direction: column-reverse;
+    color: aliceblue;
+    margin-left: 50px;
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+
+}
+
+.section , .section p{
+    margin: 50px;
+}
+
+.main-body-header h2{
+    font-weight: normal;
+    width: 75%;
+    display: flex;
+    margin: auto;
+}
+
+.main-body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-body .section {
+    width: 50%;
+}
+
+.section img{
+    width: 100%;
+    
+}
+
+
+footer li{
+    display: inline-block;
+    margin: 25px;
+    
+}
+
+footer {
+    background-color: grey;
+}
